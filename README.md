@@ -1,27 +1,31 @@
-# Vinland Nether Gate
+# NetherKey
 
-Small Paper plugin for VinlandSMP.
+NetherKey is a Minecraft plugin that locks access to the Nether until players craft and use a Rift Key at a Nether portal.
 
-Players cannot enter the Nether until they craft and use a Rift Key at a Nether portal.
+## Features
 
-Recipe:
+- Prevents players from entering the Nether without a Rift Key
+- Custom crafting recipe
+- Configurable plugin settings
+- Simple progression mechanic
+- Designed for Paper and Spigot servers
 
-```text
-Diamond  | Obsidian   | Diamond
-Obsidian | Echo Shard | Obsidian
-Diamond  | Obsidian   | Diamond
-```
+## Requirements
 
-## What it does
-
-- Blocks Overworld → Nether portal travel for locked players
-- Adds a craftable Rift Key
-- Lets players unlock Nether access at any active Nether portal
-- Plays a short ritual with particles, sounds and a boss bar
-- Saves unlocked players in `players.yml`
-- Includes admin commands to give keys, check status and reset players
-
-## Server requirements
-
-- Paper 1.21.1+
+- Minecraft 1.21+
+- Paper or Spigot
 - Java 21
+
+## Installation
+
+1. Download the latest `.jar` file from the Releases page.
+2. Place it inside your server's `plugins` folder.
+3. Restart the server.
+4. Configure the plugin in `config.yml` if necessary.
+
+## Building
+
+Build the plugin using Maven:
+
+```bash
+mvn clean package
