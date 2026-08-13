@@ -25,3 +25,4 @@ Diamond  | Obsidian   | Diamond
 
 - Paper 1.21.1+
 - Java 21
+[Plugin was mainly made for a Server called Vinland]
