@@ -1,0 +1,20 @@
+name: VinlandNetherGate
+version: '${version}'
+main: gg.vinland.nethergate.VinlandNetherGatePlugin
+description: Locks Nether travel behind a Rift Key redeemable at any active Nether portal.
+api-version: '1.21'
+authors: [Vinland]
+
+commands:
+  nethergate:
+    description: Administer the Vinland Nether Gate.
+    usage: /nethergate help
+    permission: vinlandnethergate.admin
+
+permissions:
+  vinlandnethergate.admin:
+    description: Allows all VinlandNetherGate administration commands.
+    default: op
+  vinlandnethergate.bypass:
+    description: Allows Nether entry without redeeming a Rift Key.
+    default: op
